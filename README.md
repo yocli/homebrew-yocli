@@ -18,9 +18,9 @@ Usage
 
 ### Initial pairing
 
-To generate and display a QR Code for pairing with your iOS device, simply invoke `yo` on the terminal without any arguments:
+To generate and display a QR Code for pairing with your iOS device:
 ```sh
-$ yo
+$ yo pair
 ```
 Then scan the QR Code with the `yo` iOS App (will be public soon).
 
@@ -42,4 +42,11 @@ Use it in a script if something fails:
 Annoy yourself:
 ```sh
 $ yo
+```
+
+### Troubleshooting
+
+If notifications are not showing up properly on your iOS device, you may want to re-pair by invoking:
+```sh
+$ yo repair
 ```
